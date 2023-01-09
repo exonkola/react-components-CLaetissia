@@ -30,7 +30,7 @@ function App() {
 
       <ul>
         {list.map(function(item){
-            return <li>{item.nom}</li>;
+            return <li>{item.nom} < input type = 'checkbox'></input></li>;
         })}
       </ul>
     </div>
